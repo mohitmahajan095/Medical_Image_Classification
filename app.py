@@ -1,12 +1,12 @@
 import streamlit as st
-from keras.models import load_model as keras_load_model
+from tensorflow import keras
 from PIL import Image, ImageOps
 import numpy as np
 
 # Function to load the model
 @st.cache_resource
 def load_keras_model():
-    model = keras_load_model("keras_model.h5", compile=False)
+    model = keras.models.load_model("keras_model.h5", compile=False)
     return model
 
 # Load the labels
