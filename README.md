@@ -24,8 +24,8 @@ Medical Image Classification Web App is a tool designed to make the process of c
 ## Installation
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/medical-image-classification-webapp.git
-    cd medical-image-classification-webapp
+    git clone https://github.com/mohitmahajan095/Medical_Image_Classification.git
+    cd Medical_Image_Classification
     ```
 
 2. **Install Dependencies**:
