@@ -2,17 +2,19 @@ import streamlit as st
 from tensorflow import keras
 from PIL import Image, ImageOps
 import numpy as np
+import os
 
+PATH = os.path.dirname(__file__)
 # Function to load the model
 @st.cache_resource
 def load_keras_model():
-    model = keras.models.load_model("keras_model.h5", compile=False)
+    model = keras.models.load_model(PATH+"\\keras_model.h5", compile=False)
     return model
 
 # Load the labels
 @st.cache_data
 def load_labels():
-    class_names = open("labels.txt", "r").readlines()
+    class_names = open(PATH+"\\labels.txt", "r").readlines()
     return class_names
 
 model = load_keras_model()
