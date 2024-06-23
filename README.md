@@ -35,7 +35,7 @@ Medical Image Classification Web App is a tool designed to make the process of c
 3. **Download the Model**:
    Place the `.h5` file trained using Google Teachable Machine into the project directory.
 
-## Usage
+## Usage (Python version: 3.9.0)
 1. **Run the Web App**:
     ```bash
     streamlit run app.py
