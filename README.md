@@ -8,7 +8,6 @@ This project utilizes a deep learning model trained with Google Teachable Machin
 - [Installation](#installation)
 - [Usage](#usage)
 - [Model Training](#model-training)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
