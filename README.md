@@ -11,7 +11,8 @@ This project utilizes a deep learning model trained with Google Teachable Machin
 - [License](#license)
 
 ## Introduction
-Medical Image Classification Web App is a tool designed to make the process of classifying medical images straightforward and accessible. By leveraging Google Teachable Machine and Streamlit, the project combines an intuitive training process with an easy-to-use web interface. **Note:** Python version 3.9.0 is required to deploy on streamlit
+Medical Image Classification Web App is a tool designed to make the process of classifying medical images straightforward and accessible. By leveraging Google Teachable Machine and Streamlit, the project combines an intuitive training process with an easy-to-use web interface. 
+**Note:** Python version 3.9.0 is required to deploy on streamlit
 
 ## Features
 - **Google Teachable Machine**: Train a deep learning model with a user-friendly interface.
