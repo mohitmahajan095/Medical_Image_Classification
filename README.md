@@ -2,7 +2,8 @@
 
 This project utilizes a deep learning model trained with Google Teachable Machine to classify images into four categories: MRI, CT, X-Ray, and non-medical images. The trained model is integrated into a Streamlit web application to provide an interactive interface for users to upload and classify images.
 
-Link of the deployed model: https://medicalimageclassification.streamlit.app/
+Wanna try the model ?
+> https://medicalimageclassification.streamlit.app/
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
