@@ -50,14 +50,5 @@ Medical Image Classification Web App is a tool designed to make the process of c
    - Use the upload button to select an image.
    - The app will display the classification result.
 
-## Model Training
-1. **Train the Model**:
-   - Use [Google Teachable Machine](https://teachablemachine.withgoogle.com/) to train a model with images categorized into MRI, CT, X-Ray, and non-medical images.
-   - Download the trained model as a Keras `.h5` file.
-
-2. **Integrate the Model**:
-   - Place the downloaded `.h5` file into the project directory.
-   - Ensure the model is loaded correctly in `app.py`.
-
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
