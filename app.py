@@ -46,4 +46,4 @@ if file is not None:
     confidence_score = predictions[0][index]
 
     st.success(f"Class: {class_name[2:].strip()}")
-    st.success(f"Confidence Score: {confidence_score:*100:.2f}%")
+    st.success(f"Confidence Score: {confidence_score*100:.2f}%")
